@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgraficape_pe_calculator=self.webpackChunkgraficape_pe_calculator||[]).push([[305],{4737:function(a){a.exports=JSON.parse('{"allTagsPath":"/usm-grafica-pe-calculator/blog/tags","slug":"/usm-grafica-pe-calculator/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/usm-grafica-pe-calculator/blog/tags/docusaurus"}')}}]);

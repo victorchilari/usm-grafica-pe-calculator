@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgraficape_pe_calculator=self.webpackChunkgraficape_pe_calculator||[]).push([[794],{6450:function(a){a.exports=JSON.parse('{"allTagsPath":"/usm-grafica-pe-calculator/blog/tags","slug":"/usm-grafica-pe-calculator/blog/tags/facebook","name":"facebook","count":1,"permalink":"/usm-grafica-pe-calculator/blog/tags/facebook"}')}}]);
