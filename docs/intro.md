@@ -1,35 +1,8 @@
 ---
-sidebar_position: 1
+slug: '/'
+title: Introducere
 ---
 
-# Tutorial Intro
+# Grafica pe calculator
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+Pe acest site se afla sarcinile si materialele utilizate/create de catre Chilari Victor in cadrul obiectului [Grafica pe calculator](https://moodle.usm.md/course/view.php?id=2095 'Pagina de pe Moodle') predat de catre Cristei Maria <cristeimusm2020@gmail.com>

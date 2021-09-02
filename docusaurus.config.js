@@ -14,7 +14,7 @@ module.exports = {
 	projectName: 'usm-grafica-pe-calculator', // Usually your repo name.
 	themeConfig: {
 		navbar: {
-			title: 'My Site',
+			title: 'Grafica pe calculator',
 			logo: {
 				alt: 'My Site Logo',
 				src: 'img/logo.svg'
@@ -24,52 +24,42 @@ module.exports = {
 					type: 'doc',
 					docId: 'intro',
 					position: 'left',
-					label: 'Tutorial'
-				},
-				{ to: '/blog', label: 'Blog', position: 'left' },
-				{
-					href: 'https://github.com/victorchilari/usm-grafica-pe-calculator',
-					label: 'GitHub',
-					position: 'right'
+					label: 'Laboratoare'
 				}
 			]
 		},
 		footer: {
 			style: 'dark',
 			links: [
-				{
-					title: 'Docs',
-					items: [
-						{
-							label: 'Tutorial',
-							to: '/docs/intro'
-						}
-					]
-				},
-				{
-					title: 'Community',
-					items: [
-						{
-							label: 'Stack Overflow',
-							href: 'https://stackoverflow.com/questions/tagged/docusaurus'
-						},
-						{
-							label: 'Discord',
-							href: 'https://discordapp.com/invite/docusaurus'
-						},
-						{
-							label: 'Twitter',
-							href: 'https://twitter.com/docusaurus'
-						}
-					]
-				},
+				// {
+				// 	title: 'Laboratoare',
+				// 	items: [
+				// 		{
+				// 			label: 'Laboratorul nr.1',
+				// 			to: '/laboratorul-nr-1'
+				// 		}
+				// 	]
+				// },
+				// {
+				// 	title: 'Community',
+				// 	items: [
+				// 		{
+				// 			label: 'Stack Overflow',
+				// 			href: 'https://stackoverflow.com/questions/tagged/docusaurus'
+				// 		},
+				// 		{
+				// 			label: 'Discord',
+				// 			href: 'https://discordapp.com/invite/docusaurus'
+				// 		},
+				// 		{
+				// 			label: 'Twitter',
+				// 			href: 'https://twitter.com/docusaurus'
+				// 		}
+				// 	]
+				// },
 				{
 					title: 'More',
 					items: [
-						{
-							label: 'Blog',
-							to: '/blog'
-						},
 						{
 							label: 'GitHub',
 							href: 'https://github.com/victorchilari/usm-grafica-pe-calculator'
@@ -90,16 +80,9 @@ module.exports = {
 			{
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
-					// Please change this to your repo.
-					editUrl:
-						'https://github.com/victorchilari/usm-grafica-pe-calculator/edit/main/website/'
+					routeBasePath: '/'
 				},
-				blog: {
-					showReadingTime: true,
-					// Please change this to your repo.
-					editUrl:
-						'https://github.com/victorchilari/usm-grafica-pe-calculator/edit/main/website/blog/'
-				},
+				blog: false,
 				theme: {
 					customCss: require.resolve('./src/css/custom.css')
 				}
